@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, {useEffect, useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 import Header from './Header'
-import { Tasks } from './Tasks'
+import {Tasks} from './Tasks'
 import CreateTask from './CreateTask'
-import { getAllTasks, deleteTask, fetchSettings } from '../services/TaskService'
+import {deleteTask, getAllTasks} from '../services/TaskService'
 
 function Home() {
 

@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import { useForm } from "react-hook-form";
-import { editTask } from '../services/TaskService'
+import {useForm} from "react-hook-form";
+import {editTask} from '../services/TaskService'
 
 export default function EditTaskModal({task, taskEdited}) {
     const [show, setShow] = useState(false);

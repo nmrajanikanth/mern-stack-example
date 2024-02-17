@@ -2,11 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Home from './components/Home'
-import {
-  BrowserRouter,
-  Routes,
-  Route
-} from "react-router-dom";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 function App() {
 

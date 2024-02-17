@@ -1,6 +1,6 @@
 import React from 'react'
-import { useForm } from "react-hook-form";
-import { createTask } from '../services/TaskService'
+import {useForm} from "react-hook-form";
+import {createTask} from '../services/TaskService'
 
 export default function CreateTask(props) {
 
